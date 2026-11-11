@@ -1,4 +1,4 @@
-## AI Playbook: o que é?
+## iNdex: o que é?
 
 Este repositório reúne orientações práticas para usar IA no desenvolvimento. O conteúdo é voltado a pessoas que querem entender ferramentas, técnicas e fluxos de trabalho com agentes de IA.
 ## Stack utilizada:

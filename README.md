@@ -1,4 +1,4 @@
-# 🤖 iA Playbook
+# 🤖 iNdex
 
 ### Um guia para uso de IA no desenvolvimento
 
