@@ -96,6 +96,42 @@ npx skills add obra/superpowers \
   --skill verification-before-completion \
   --skill writing-skills
 ```
+## Otimização de uso
+
+### [`DietrichGebert/ponytail`](https://github.com/DietrichGebert/ponytail)
+
+Ponytail orienta o agente a resolver a tarefa com a menor mudança que a conclua por inteiro. Ele incentiva o reuso do que já existe e evita abstrações e dependências sem necessidade. Mantém validação, segurança, tratamento de erros, acessibilidade e testes quando a mudança exige esses cuidados.
+
+#### `ponytail`
+
+Aplica esse modo de trabalho durante tarefas de programação, buscando uma solução pequena e completa.
+
+#### `ponytail-review`
+
+Revisa uma mudança específica em busca de bugs, riscos de segurança, falhas sob carga, testes ausentes e código desnecessário. Apenas apresenta os achados.
+
+#### `ponytail-audit`
+
+Faz uma revisão do repositório inteiro e ordena os problemas por prioridade, incluindo complexidade que pode ser removida.
+
+#### `ponytail-debt`
+
+Reúne comentários `shortcut:` ou `ponytail:` em uma lista de simplificações pendentes e seus critérios para revisão.
+
+#### `ponytail-gain`
+
+Mostra os indicadores medidos pelo projeto Ponytail sobre tamanho de código, custo e velocidade.
+
+#### `ponytail-help`
+
+Resume os níveis de uso e os comandos disponíveis. Não altera o projeto.
+
+Comando para adicionar as seis skills deste repositório:
+
+```bash
+npx skills add DietrichGebert/ponytail --skill '*'
+```
+
 
 ## Design de telas
 
