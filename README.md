@@ -38,6 +38,6 @@ Sinta-se a vontade para contribuir
 
 ## ✉️ Contato
 
-- [Telegram]: @luiisprotasio
+- **[Telegram]**: @luiisprotasio
 
 ---
